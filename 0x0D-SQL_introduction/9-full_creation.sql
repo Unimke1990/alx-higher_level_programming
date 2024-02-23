@@ -2,5 +2,5 @@
 -- description: creating a table with multiple rows
 
 -- script that creates a table with multiple rows
-CREATE TABLE IF NOT EXISTS second_table (id INTEGER AUTO_INCREMENT, name VARCHAR(256), score INTEGER);
-INSERT INTO second_table (name, score) VALUES ('John', 10), ('Alex', 3), ('Bob', 14), ('George', 8);
+CREATE TABLE IF NOT EXISTS second_table (id INTEGER, name VARCHAR(256), score INTEGER);
+INSERT INTO second_table (id, name, score) VALUES (1, 'John', 10), (2, 'Alex', 3), (3, 'Bob', 14), (4, 'George', 8);
