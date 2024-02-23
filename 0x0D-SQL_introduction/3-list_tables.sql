@@ -2,4 +2,7 @@
 -- description: how to show all tables in a database
 
 -- script that displays all the tables in a database
-USE mysql SHOW TABLES;
+USE mysql;
+
+-- show all tables in mysql
+SHOW TABLES;
