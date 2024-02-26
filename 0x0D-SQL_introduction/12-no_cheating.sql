@@ -2,4 +2,4 @@
 -- Description: updating a record in a table
 
 -- script that updates a record in a table
-UPDATE second_table SET score=10 WHERE name=Bob;
+UPDATE second_table SET score=10 WHERE name='Bob';
